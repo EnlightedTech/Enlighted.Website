@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlighted Educational Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/new Enlighted.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!---------- Course -------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Are you ready to soar to new heights in your educational and professional endeavors? Look no further than Enlighted.</p>
+    
+        <div class="row">
+            <div class="course-col">
+              <h3>Advanced Diploma</h3>
+              <P>Elevate Your Academic Journey with Enlighted Online Educational Services!</P>
+            </div>
+            <div class="course-col">
+            <h3>Honours Degree</h3>
+              <P>Elevate Your Academic Journey with Enlighted Online Educational Services!</P>
+        </div>
+            <div class="course-col">
+            <h3>Master's Degree</h3>
+              <P>Elevate Your Academic Journey with Enlighted Online Educational Services!</P>
+        </div>
+        </div>
+        
+    </section>
+
+    <!--- --- footer --------->
+    
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>Write something here Mr Sithole. Anything that will talk to your organization.<br>Add more information here if necessary.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Enlighted</p>
+    </section>
+
+<!----------- HOME PAGE FOOTER------------------>
+<footer>
+    <h3>&copy; 2024 Enlighted. All rights reserved.</h3>
+</footer>
+
+    <!-------JavaScript for toggle Menu------->
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+</body>
+</html>
+
